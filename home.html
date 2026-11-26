@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<!-- bootstrap -->
+<!-- css -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<!-- js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+<style>
+    body {
+        background-color: #83b89a;
+    }
+</style>
+
+<body>
+    <div class="bg-light d-flex justify-content-start p-3">
+        <h4 class="text-dark">Welcome</h4>
+        <button class="btn btn-info" onclick="logout()">logout</button>
+    </div>
+
+    <div class="col-md-4 p-5">
+        <div>
+
+            <input id="empid" type="text" placeholder="Employee Id" class="form-control mb-2">
+            <input id="empname" type="text" placeholder="Employee Name" class="form-control mb-2">
+            <input id="empaddr" type="text" placeholder="Employee Address" class="form-control mb-2">
+            <input id="empdesg" type="text" placeholder="Employee Designation" class="form-control mb-2">
+            <input id="empexp" type="text" placeholder="Employee Experience" class="form-control mb-2">
+            <input id="empsal" type="text" placeholder="Employee Salary" class="form-control mb-3">
+
+            <button class="btn btn-outline-primary w-100" onclick="addEmployee()">Add Employee</button>
+
+        </div>
+    </div>
+
+
+</body>
+</body>
+<script src="./home.js"></script>
+
+</html>
